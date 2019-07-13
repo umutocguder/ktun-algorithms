@@ -1,0 +1,12 @@
+/Users/umut/Desktop/CODES/Algorithms/sifsezar.c:8:14: warning: format specifies type 'char *' but the argument has type 'char (*)[50]' [-Wformat]
+  scanf("%s",&mesaj);
+         ~~  ^~~~~~
+/Users/umut/Desktop/CODES/Algorithms/sifsezar.c:9:3: warning: implicit declaration of function 'strupr' is invalid in C99 [-Wimplicit-function-declaration]
+  strupr(mesaj);
+  ^
+2 warnings generated.
+Undefined symbols for architecture x86_64:
+  "_strupr", referenced from:
+      _main in sifsezar-7bfa47.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
